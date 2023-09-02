@@ -4,8 +4,8 @@
   vars:
     URL: play.example.com
     tasks:
-      -name: Access a variable
-      ansible.builtin.debug:
+      - name: Access a variable
+        ansible.builtin.debug:
         msg: URL == {{URL}}
 
 - name: Declare variable at a tasks level
