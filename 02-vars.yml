@@ -15,6 +15,7 @@
       -name: Declare and Access a variable
       ansible.builtin.debug:
         msg: URL =={{URL}}
+        vars: task.example.com
 
 
 
