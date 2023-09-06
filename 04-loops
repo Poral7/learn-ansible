@@ -1,0 +1,6 @@
+- name: demo on loops
+  hosts: all
+  tasks:
+     - name: print fruit name
+  debug:
+    msg:
